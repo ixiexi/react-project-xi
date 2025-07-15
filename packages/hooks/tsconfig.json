@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "types": [
+            "vitest/globals"
+        ],
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ],
+            "changfeng-hooks": [
+                "./src/index.ts"
+            ]
+        }
+    },
+    "includes": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
