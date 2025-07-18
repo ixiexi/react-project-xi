@@ -1,6 +1,9 @@
 import { menus } from "./hooks";
 
 export default {
+    outputPath: 'dist-doc',
+    base: '/react-project-xi/',
+    publicPath: '/react-project-xi/',
     exportStatic: {},
     nodeModulesTransform: {
         type: 'none', // all
