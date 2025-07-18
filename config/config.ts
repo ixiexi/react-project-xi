@@ -1,6 +1,7 @@
 import { menus } from "./hooks";
 
 export default {
+    outputPath: 'dist-doc',
     exportStatic: {},
     nodeModulesTransform: {
         type: 'none', // all
