@@ -1,7 +1,7 @@
 import { menus } from "./hooks";
 
 export default {
-    outputPath: 'dist-doc',
+    outputPath: 'dist',
     base: '/react-project-xi/',
     publicPath: '/react-project-xi/',
     exportStatic: {},
