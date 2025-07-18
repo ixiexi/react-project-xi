@@ -26,34 +26,34 @@ export default {
     manifest: {},
     hash: true,
     alias: {
-        xi- hooks: process.cwd() + '/packages/hooks/src/index.ts'
-},
-resolve: {
-    includes: ['docs', 'packages/hooks/src'],
+        'xi-hooks': process.cwd() + '/packages/hooks/src/index.ts'
     },
-navs: [
-    {
-        title: '指南',
-        path: '/guide'
+    resolve: {
+        includes: ['docs', 'packages/hooks/src'],
     },
-    {
-        title: 'hooks',
-        path: '/hooks'
-    }
-],
-    menus: {
-    '/': [
+    navs: [
         {
-            title: '首页',
-            path: 'index'
+            title: '指南',
+            path: '/guide'
         },
+        {
+            title: 'hooks',
+            path: '/hooks'
+        }
     ],
+    menus: {
+        '/': [
+            {
+                title: '首页',
+                path: 'index'
+            },
+        ],
         '/guide': [
             {
                 title: '指南',
                 path: '/guide'
             }
         ],
-            '/hooks': menus,
+        '/hooks': menus,
     }
 }
